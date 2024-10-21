@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5e1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caudex', 'Times New Roman', Times, serif;
+    color: #20562b;
+    flex-basis: 15%;
+}
+
+.main-container {
+    flex-basis: 80%;
+    background-image: url('../assets/outside-image2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-section {
+    border: 1px solid red;
+}
+
+.nav-bar {
+    width: 100%;
+    font-weight: bold;
+    padding: 12px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    flex-basis: 5%;
+}
+
+.sub-heading {
+    font-style: italic;
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width: 950px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        max-width: 12rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .main-info-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,93 @@
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        align-items: center;
+    }
+
+    .nav-link {
+        max-width: 16rem;
+        margin: 0.5rem;
+    }
+
+    .hero-section {
+        height: 45rem;
+        background-color: var(--secondary-color);
+    }
+
+    .hero-text-container {
+        top: 68%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+    }
+
+    .hero-content {
+        font-size: 3.5rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-info-container {
+        flex-direction: column;
+    }
+
+    .activities-section {
+        flex-direction: column;
+    }
+
+    .experiences-section {
+        flex-direction: column-reverse;
+    }
+
+    .illustration-image {
+        width: 70%;
+    }
+
+    #illustration-image-long {
+        width: 60%;
+    }
+
+    .link-section {
+        height: 50rem;
+    }
+
+    .link-container {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .illustration-image {
+        width: 100%;
+    }
+
+    #illustration-image-long {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .booking-form {
+        width: 20rem;
+    }
+
+    .hero-content-sub-headline {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* BODY STYLING */
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5e1;
+    font-family: 'Caudex', 'Times New Roman', Times, serif;
+}
+
+/* HEADER STYLING */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 245, 225, 1) 0%, rgba(255, 254, 239, 1) 100%);
+    color: #20562b;
+    flex-basis: 15%;
+    margin-top: 1rem;
+}
+
+#sub-heading {
+    font-style: italic;
+}
+
+.nav-bar {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: #264f2e;
+    color: #fff5e1;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    margin: 1rem 2rem;
+    border-radius: 5px;
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+}
+/*
+.nav-link {
+    text-decoration: none;
+    color: #162c1b;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff5e1;
+    margin: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+} */
+
+.nav-link:hover {
+    background-color: #20562b;
+    transform: scale(1.1);
+}
+
+.nav-link:active {
+    background-color: #162c1b;
+}
+
+#home-symbol {
+    margin-right: 0.5rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* FRONT PAGE STYLING */
+.section-headline {
+    font-size: 1.25rem;
+}
+
+.main-container {
+    flex-basis: 80%;
+    text-align: center;
+    margin: 2rem;
+}
+
+.about-section {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+}
+
+.about-text {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.image-container {
+    flex-basis: 50%;
+}
+
+.front-page-images {
+    border-radius: 3%;
+}
+
+/* STYLING FOR INFO PAGE */
+.main-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+}
+
+.info-text-container {
+    flex-basis: 50%;
+    width: 90%;
+}
+
+.info-image-container {
+    flex-basis: 50%;
+    width: 70%;
+}
+
+.info-image-container > img {
+    border-radius: 3%;
+}
+
+.opening-hours-section,
+.directions-section,
+.prices-section {
+    margin-bottom: 1rem;
+}
+
+.hours,
+.price-element {
+    margin: 1rem 0;
+}
+
+.price-element {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+/* STYLING FOR ACTIVITIES PAGE */
+.main-activities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.activities-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.bold-text {
+    font-weight: 900;
+}
+
+/* FOOTER */
+footer {
+    background-color: #264f2e;
+    color: #fff5e1;
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+a#email-element {
+    text-decoration: underline;
+}

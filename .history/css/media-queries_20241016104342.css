@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        height: 45rem;
+        background-color: var(--secondary-color);
+    }
+
+    .hero-text-container {
+        top: 68%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+    }
+
+    .hero-content {
+        font-size: 3.5rem;
+    }
+
+    .normal-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reverse-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image-container {
+        width: 80%;
+        align-items: center;
+    }
+
+    .text-container {
+        width: 80%;
+        padding: 0 1.5rem;
+    }
+
+    .card-container {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .card-container {
+        width: 80%;
+    }
+
+    .card {
+        width: 15rem;
+        height: 18rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .card-section,
+    .intro-section {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .booking-form {
+        width: 20rem;
+    }
+
+    #hero-content-sub-headline {
+        font-size: 1.5rem;
+    }
+
+    .intro-section {
+        height: 20rem;
+    }
+}

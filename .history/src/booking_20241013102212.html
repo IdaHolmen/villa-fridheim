@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" type="image/x-icon" href="../assets/villa-fridheim-logo.svg" />
+
+        <title>Villa Fridheim</title>
+        <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../css/media-queries.css" />
+    </head>
+    <body>
+        <header>
+            <div class="headline-container">
+                <a href="../index.html" id="home-button">
+                    <img src="../assets/villa-fridheim-logo.svg" alt="Omrisset av et eventyrslott" class="main-logo" />
+                    <h1 class="main-headline">Villa Fridheim</h1>
+                </a>
+            </div>
+
+            <nav class="nav-bar">
+                <a href="../index.html" class="nav-link">Åpningstider og priser</a>
+                <a href="./activities.html" class="nav-link">Aktiviteter og opplevelser</a>
+                <a href="./stories.html" class="nav-link">Historier</a>
+            </nav>
+        </header>
+
+        <main class="booking-container">
+            <form class="booking-form">
+                <h2 class="section-headline">Booking</h2>
+
+                <div class="input-wrapper">
+                    <input type="text" />
+                    <label for="name">
+                        Navn:
+                        <sup>*</sup>
+                    </label>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="text" />
+                    <label for="email">
+                        E-post:
+                        <sup>*</sup>
+                    </label>
+                </div>
+
+                <div class="input-wrapper">
+                    <select name="activity-select" id="activity-select">
+                        <option>Velg en aktivitet</option>
+                        <option>Kano, 1 time</option>
+                        <option>Kano, hel dag</option>
+                        <option>Guidet tur</option>
+                        <option>Guidet tur, skoleklasse</option>
+                    </select>
+                </div>
+
+                <label for="comments">Kommentarer og spørsmål:</label>
+                <textarea
+                    name="comment-input"
+                    id="comment-input"
+                    cols="30"
+                    rows="3"
+                    placeholder="Maks 140 tegn"
+                ></textarea>
+
+                <button type="submit" id="submit-button">Send inn</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <h3>Kontaktinformasjon:</h3>
+            <p>
+                E-post:
+                <a href="" id="email-element">villafridheim@museer.no</a>
+            </p>
+            <p>Telefon: 12345678</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 1rem;
+}
+
+header {
+    background-color: lightblue;
+}
+
+.main-container {
+    background-image: url('../assets/areal-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+.sub-heading {
+    font-style: italic;
+}

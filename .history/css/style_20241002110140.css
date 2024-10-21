@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caudex', 'Times New Roman', Times, serif;
+    background-color: #fff5e1;
+    color: #20562b;
+    flex-basis: 10%;
+}
+
+.main-container {
+    flex-basis: 85%;
+    background-image: url('../assets/faded-image-outside.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    flex-basis: 5%;
+    background-color: lightblue;
+}
+
+.sub-heading {
+    font-style: italic;
+}

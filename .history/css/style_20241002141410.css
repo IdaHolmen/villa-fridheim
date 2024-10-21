@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5e1;
+    font-family: 'Caudex', 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #20562b;
+    flex-basis: 15%;
+}
+
+.sub-heading {
+    font-style: italic;
+}
+
+.nav-bar {
+    width: 100%;
+    font-weight: bold;
+    padding: 12px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-container {
+    flex-basis: 80%;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.about-section {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+}
+
+.about-text {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.image-container {
+    flex-basis: 50%;
+}
+
+footer {
+    flex-basis: 5%;
+}
